@@ -1,1 +1,1 @@
-# ProtectorPantheon
+This project is a Spring Boot application that leverages JPA for user management. It offers a JSON REST interface with secure functionalities. Admin users can perform operations such as adding, deleting, and updating user passwords. Ordinary users have the ability to view user information and update their own passwords. All endpoints in the application require an X-API-TOKEN header for authentication. Overall, this project provides a robust user management solution with role-based access control and token-based authentication.
